@@ -1,10 +1,14 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 10px auto;
+    width: 90%;
+    background-color: white
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 10px;
     list-style: none;
     font-weight: bold;
 }
@@ -24,9 +28,9 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.4em;
-    color: #333;
+    color: black;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -40,4 +44,14 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+h1 {
+    color: black;
+}
+h2 {
+    color:black;
+    
+}
+div {
+    color: red
 }
